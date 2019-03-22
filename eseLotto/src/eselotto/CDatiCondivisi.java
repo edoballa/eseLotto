@@ -30,4 +30,46 @@ public class CDatiCondivisi {
         this.PrimoTrovato = true;
         this.SecondoTrovato = true;
     }
+
+    public int getPrimoNumero() {
+        return PrimoNumero;
+    }
+
+    public void setPrimoNumero(int PrimoNumero) {
+        this.PrimoNumero = PrimoNumero;
+    }
+
+    public int getSecondoNumero() {
+        return SecondoNumero;
+    }
+
+    public void setSecondoNumero(int SecondoNumero) {
+        this.SecondoNumero = SecondoNumero;
+    }
+
+    public boolean isPrimoTrovato() {
+        return PrimoTrovato;
+    }
+
+    public void setPrimoTrovato(boolean PrimoTrovato) {
+        this.PrimoTrovato = PrimoTrovato;
+    }
+
+    public boolean isSecondoTrovato() {
+        return SecondoTrovato;
+    }
+
+    public void setSecondoTrovato(boolean SecondoTrovato) {
+        this.SecondoTrovato = SecondoTrovato;
+    }
+
+    public int[] getRuota() {
+        return ruota;
+    }
+
+    public void setRuota(int[] ruota) {
+        this.ruota = ruota;
+    }
+    
+    
 }

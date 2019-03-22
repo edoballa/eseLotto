@@ -9,6 +9,16 @@ package eselotto;
  *
  * @author ballabio_edoardo
  */
-public class ThCercaPrimoNum {
+public class ThCercaPrimoNum extends Thread{
+    private CDatiCondivisi ptrDati;
     
+    public ThCercaPrimoNum(CDatiCondivisi dati) {
+        ptrDati = dati;
+    }
+    
+    public void run() {
+        for(int i=0; i<5; i++) {
+            
+        }
+    }
 }

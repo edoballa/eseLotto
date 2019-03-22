@@ -9,6 +9,14 @@ package eselotto;
  *
  * @author ballabio_edoardo
  */
-public class ThGeneraNum {
+public class ThGeneraNum extends Thread{
+    private CDatiCondivisi ptrDati;
     
+    public ThGeneraNum(CDatiCondivisi dati) {
+        ptrDati = dati;
+    }
+    
+    public void run() {
+        
+    }
 }

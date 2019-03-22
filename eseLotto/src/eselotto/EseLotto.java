@@ -20,6 +20,13 @@ public class EseLotto {
         Scanner input = new Scanner(System.in);
         System.out.println("Inserire il numero di estrazioni da effettuare");
         int estrazioni = input.nextInt();
+        System.out.println("Inserire due numeri su cui puntare");
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+        
+        CDatiCondivisi dati = new CDatiCondivisi();
+        dati.setPrimoNumero(num1);
+        dati.setSecondoNumero(num2);
     }
     
 }
